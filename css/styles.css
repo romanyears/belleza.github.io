@@ -1,0 +1,96 @@
+/* ----- FONTS -------*/
+/*font-family: hobeaux-rococeaux, sans-serif;*/
+/*font-family: 'Belleza', sans-serif;*/
+
+
+/* ----- COLORS -------*/
+/*Green: #293122*/
+/*Brownish: #C9A290*/
+
+
+/* ----- GLOBAL -------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+body{
+	font-family: 'Belleza', sans-serif;
+	font-size: 100%;
+}
+
+#jumbo{
+	height: 100vh;
+}
+
+/* ----- SIDES -------*/
+#jumbo .row{
+	height: 100vh;
+}
+
+.left-side{
+	padding: 20px 60px;
+	background-color: #293122;
+	color: #C9A290;
+}
+
+.right-side{
+	padding: 20px 60px;
+	background-color: #C9A290;
+	color: #293122;
+}
+
+.flex-center-column{
+	padding-top: 30px;
+	height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* ----- TEXT -------*/
+h1#name{
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+h2#slogan{
+	font-family: hobeaux-rococeaux, sans-serif;
+font-weight: 400;
+
+font-style: normal;
+	font-size: 4em;
+}
+
+p.statement, #intro{
+	font-size: 1.25em;
+	padding-top: 15px;
+	padding-right: 100px;
+}
+
+nav{
+	font-size: 3em;
+	text-align: right;
+}
+
+#intro a{
+	font-size: 1.5em;
+	color: #293122;
+	text-underline-offset: 0.1em;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 992px) {
+  nav{
+  	position: absolute;
+  	top: -520px;
+  	right: 25px;
+  	color: #C9A290;
+  }
+}
